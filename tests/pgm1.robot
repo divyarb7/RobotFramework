@@ -4,11 +4,11 @@ Library    SeleniumLibrary
 *** Test Cases ***
 Test Login Page
     # Step 1: Open the browser
-    Open Browser    https://example.com/login    chrome
+    Open Browser    https://opensource-demo.orangehrmlive.com    chrome
     
     # Step 2: Input username and password
-    Input Text    username_field_locator    testuser
-    Input Text    password_field_locator    testpassword
+    Input Text    username_field_locator    Admin
+    Input Text    password_field_locator    admin123
     
     # Step 3: Click the login button
     Click Element    login_button_locator
